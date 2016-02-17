@@ -1,12 +1,11 @@
-Mobile robotics project
-------------------------
+# Mobile robotics project
 
-In this project, a Pioneer 3AT Mobile Robot is used to generate a map of a chosen environment.
-A graph is built using RRT algorithm and computes a possible path the robot can follow.
+A Pioneer 3AT Mobile Robot is used to generate a map of a chosen environment. The code implements RRT (rapidly exploring random tree) algorithm to generate a path the robot can follow. 
 
-  - Path-planning with RRT algorithm (Rapidly exploring random tree)
+## Features
+
+  - Path-planning
   - Smoothed path
   - Dynamic obstacle detection using the robot's sonars
 
-----------------------
 
