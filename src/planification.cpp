@@ -1,5 +1,5 @@
 #include <ros/ros.h>
-#include "RRT.hpp"
+#include "rrt.hpp"
 #include <opencv2/core/core.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/highgui/highgui.hpp>

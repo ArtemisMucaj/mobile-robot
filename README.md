@@ -1,13 +1,9 @@
-# Mobile robotics project
+# Mobile Robotics
 
-## Written in C++ with ROS
+C++ & ROS 
 
-A Pioneer 3AT Mobile Robot is used to generate a map of a chosen environment. The code implements a RRT (rapidly exploring random tree) algorithm to generate a path the robot can follow. 
-
-## Features
-
-  - Path-planning
-  - Smoothed path
-  - Dynamic obstacle detection using the robot's sonars
+- Path-planning (RRT)
+- Smoothed path
+- Dynamic obstacle detection using the sonars
 
 

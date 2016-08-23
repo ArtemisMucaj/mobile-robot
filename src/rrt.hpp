@@ -9,7 +9,7 @@
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
 
-#include "Node.hpp"
+#include "node.hpp"
 
 #define LARGEUR_ROBOT 100
 #define LONGUEUR_ROBOT 200
