@@ -14,23 +14,12 @@ struct Node{
  std::vector<Node*> forest; 
 
  Node(): x(0),y(0), distFromRoot(0), distFromGoal(0){
-   //forest = new std::vector<Node*>();
   parent = NULL;
  }
+
  Node(int x0, int y0): x(x0), y(y0), distFromRoot(0), distFromGoal(0){
-   //forest = new std::vector<Node*>();
   parent = NULL;
  }
  
- 
- /*Node* operator+ (Node const& a){
-  return new Node(a->x+x, a->y+y);  
- }  
- Node* operator* (float a){
-  return new Node (a*x, a*y);
- }*/
-  
 };
-
-
 #endif
